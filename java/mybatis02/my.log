@@ -1,0 +1,75 @@
+org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 949684105. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@389b0789] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@389b0789] 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@389b0789] 
+org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 949684105 to pool. 
+org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 2133655103. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7f2cfe3f] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7f2cfe3f] 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7f2cfe3f] 
+org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 2133655103 to pool. 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people where id=3 or id=4  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people where id=3 or id=4  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people where id=3 or id=4  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people where id=?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people where id=? and name=?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 张三(String) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people limit ?,?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 2(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people limit ?,?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer), 2(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people limit ?,?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer), 2(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from people limit ?,?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer), 2(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: insert into people values(default,?,?)  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 新增name(String), 88(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==    Updates: 1 
